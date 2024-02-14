@@ -6,7 +6,7 @@ import {
   DashboardNavbar,
   Configurator,
   Footer,
-} from "@/widgets/layout";
+} from "@/components/layout";
 import routes from "@/routes/routes";
 import { useMaterialTailwindController, setOpenConfigurator } from "@/context";
 

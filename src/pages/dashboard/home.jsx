@@ -17,8 +17,8 @@ import {
   EllipsisVerticalIcon,
   ArrowUpIcon,
 } from "@heroicons/react/24/outline";
-import { StatisticsCard } from "@/widgets/cards";
-import { StatisticsChart } from "@/widgets/charts";
+import { StatisticsCard } from "@/components/cards";
+import { StatisticsChart } from "@/components/charts";
 import {
   statisticsCardsData,
   statisticsChartsData,
@@ -26,8 +26,8 @@ import {
   ordersOverviewData,
 } from "@/data";
 import { CheckCircleIcon, ClockIcon } from "@heroicons/react/24/solid";
-import OrderOverviewCard from "@/widgets/cards/order-overview-card";
-import ProjectCard from "@/widgets/cards/project-card";
+import OrderOverviewCard from "@/components/cards/order-overview-card";
+import ProjectCard from "@/components/cards/project-card";
 
 export function Home() {
   return (
