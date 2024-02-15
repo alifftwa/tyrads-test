@@ -7,8 +7,8 @@ import {
   CardBody,
 } from "@material-tailwind/react";
 import { InformationCircleIcon } from "@heroicons/react/24/outline";
-import AlertCard from "@/components/cards/alert-card";
-import AlertWithIconCard from "@/components/cards/alert-card";
+import AlertCard from "@/components/cards/AlertCard";
+import AlertWithIconCard from "@/components/cards/AlertCard";
 
 export function Notifications() {
   const [showAlerts, setShowAlerts] = React.useState({

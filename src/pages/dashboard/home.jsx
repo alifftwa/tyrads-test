@@ -26,8 +26,8 @@ import {
   ordersOverviewData,
 } from "@/data";
 import { CheckCircleIcon, ClockIcon } from "@heroicons/react/24/solid";
-import OrderOverviewCard from "@/components/cards/order-overview-card";
-import ProjectCard from "@/components/cards/project-card";
+import OrderOverviewCard from "@/components/cards/OrderOverviewCard";
+import ProjectCard from "@/components/cards/ProjectCard";
 
 export function Home() {
   return (
